@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import ImageSlideshow
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageSlideshow: ImageSlideshow!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let image1 = UIImage(named: "banner1")!
+        
+        imageSlideshow.setImageInputs([ImageSource(image: image1)])
+        
+//        imageSlideshow.setImageInputs([ImageSource(image: UIImage(named: "banner1")!),ImageSource(image: UIImage(named: "banner2")!),ImageSource(image: UIImage(named: "banner3")!)])
     }
 
     override func didReceiveMemoryWarning() {
