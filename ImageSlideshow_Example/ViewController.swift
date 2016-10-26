@@ -24,7 +24,8 @@ class ViewController: UIViewController {
         imageSlideshow.setImageInputs([
             ImageSource(image: UIImage(named: "banner1")!),
             ImageSource(image: UIImage(named: "banner2")!),
-            ImageSource(image: UIImage(named: "banner3")!)
+            ImageSource(image: UIImage(named: "banner3")!),
+            SDWebImageSource(urlString: "https://images.unsplash.com/photo-1432679963831-2dab49187847?w=1080")!
             ])
     }
 

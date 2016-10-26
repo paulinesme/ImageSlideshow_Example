@@ -7,4 +7,5 @@ target 'ImageSlideshow_Example' do
 
   # Pods for ImageSlideshow_Example
  pod 'ImageSlideshow', git: 'https://github.com/zvonicek/ImageSlideshow.git', branch: 'swift-3'
+ pod 'ImageSlideshow/SDWebImage', git: 'https://github.com/zvonicek/ImageSlideshow.git', branch: 'swift-3'
 end

@@ -2,9 +2,16 @@ PODS:
   - ImageSlideshow (0.6):
     - ImageSlideshow/Core (= 0.6)
   - ImageSlideshow/Core (0.6)
+  - ImageSlideshow/SDWebImage (0.6):
+    - ImageSlideshow/Core
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
 
 DEPENDENCIES:
   - ImageSlideshow (from `https://github.com/zvonicek/ImageSlideshow.git`, branch `swift-3`)
+  - ImageSlideshow/SDWebImage (from `https://github.com/zvonicek/ImageSlideshow.git`, branch `swift-3`)
 
 EXTERNAL SOURCES:
   ImageSlideshow:
@@ -18,7 +25,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   ImageSlideshow: f4dc163508e8ca0368f78942b6e50f4046d823b6
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 9974a596cfd6bdf5e9a788395f082847e843b46e
+PODFILE CHECKSUM: 85cd4da0a32e57cb88e523b6c14149bc70b61870
 
 COCOAPODS: 1.0.0
