@@ -17,11 +17,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let image1 = UIImage(named: "banner1")!
+//        let image1 = UIImage(named: "img1")!
+//        
+//        imageSlideshow.setImageInputs([ImageSource(image: image1)])
         
-        imageSlideshow.setImageInputs([ImageSource(image: image1)])
-        
-//        imageSlideshow.setImageInputs([ImageSource(image: UIImage(named: "banner1")!),ImageSource(image: UIImage(named: "banner2")!),ImageSource(image: UIImage(named: "banner3")!)])
+        imageSlideshow.setImageInputs([
+            ImageSource(image: UIImage(named: "banner1")!),
+            ImageSource(image: UIImage(named: "banner2")!),
+            ImageSource(image: UIImage(named: "banner3")!)
+            ])
     }
 
     override func didReceiveMemoryWarning() {

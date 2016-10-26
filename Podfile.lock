@@ -1,0 +1,24 @@
+PODS:
+  - ImageSlideshow (0.6):
+    - ImageSlideshow/Core (= 0.6)
+  - ImageSlideshow/Core (0.6)
+
+DEPENDENCIES:
+  - ImageSlideshow (from `https://github.com/zvonicek/ImageSlideshow.git`, branch `swift-3`)
+
+EXTERNAL SOURCES:
+  ImageSlideshow:
+    :branch: swift-3
+    :git: https://github.com/zvonicek/ImageSlideshow.git
+
+CHECKOUT OPTIONS:
+  ImageSlideshow:
+    :commit: 22b4aa599a57bc35395d6c7039927d9a99824822
+    :git: https://github.com/zvonicek/ImageSlideshow.git
+
+SPEC CHECKSUMS:
+  ImageSlideshow: f4dc163508e8ca0368f78942b6e50f4046d823b6
+
+PODFILE CHECKSUM: 9974a596cfd6bdf5e9a788395f082847e843b46e
+
+COCOAPODS: 1.0.0
