@@ -27,6 +27,11 @@ class ViewController: UIViewController {
             ImageSource(image: UIImage(named: "banner3")!),
             SDWebImageSource(urlString: "https://images.unsplash.com/photo-1432679963831-2dab49187847?w=1080")!
             ])
+        
+        imageSlideshow.slideshowInterval = 1
+        imageSlideshow.zoomEnabled = true
+        imageSlideshow.circular = true
+        imageSlideshow.pageControlPosition = .underScrollView
     }
 
     override func didReceiveMemoryWarning() {

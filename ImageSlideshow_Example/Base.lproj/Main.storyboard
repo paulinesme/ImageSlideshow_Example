@@ -19,13 +19,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Ua-64-zYs" customClass="ImageSlideshow" customModule="ImageSlideshow">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.41307641712195076" green="0.80043585546622775" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="375" id="JfF-kn-VlG"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.94483528848716858" green="1" blue="0.2823869920008184" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="3Ua-64-zYs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6Z4-qB-Ctu"/>
                             <constraint firstAttribute="trailing" secondItem="3Ua-64-zYs" secondAttribute="trailing" id="KhD-Pz-KHs"/>
